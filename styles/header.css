@@ -1,11 +1,48 @@
-.logo{
-    max-width: 300px;
-}
-
 .header{
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-reg);
+}
+
+/*Left-coumn*/
+.logo{
+    max-width: 300px;
+}
+
+.header > .left-column{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .left-column > .explore-container{
+    background-color: aqua;
+}
+
+.header > .left-column > .explore-container > .nav-container{
+    background-color: beige;
+}
+
+.header > .left-column > .explore-container > .nav-container a{
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--ff-secondary);
+}
+
+.header > .left-column > .spark-container{
+    background-color: blue;
+}
+
+
+/*right-column*/
+.right-column{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
 }
