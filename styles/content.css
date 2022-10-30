@@ -1,0 +1,9 @@
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: linear-gradient(-20deg, #0a0a0d, #40444f);
+}
+
+.img-content{
+    max-width: 500px;
+}
