@@ -1,9 +1,21 @@
 .content{
+    height: 560px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background: linear-gradient(-20deg, #0a0a0d, #40444f);
+    gap: 100px;
+    background: rgb(182,180,182);
+    background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, #43464e 0%, #191a1d 100%);
 }
 
 .img-content{
     max-width: 500px;
+}
+
+.content > .left-column{
+    width: 100%;
+    padding: 30px;
+    color: #cacaca;
+    font-family: var(--ff-primary);
+    font-weight: 100;
+    font-size: 2.2em;
 }
