@@ -2,7 +2,7 @@
     height: 570px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 100px;
+    gap: 10px;
     background: rgb(182,180,182);
     background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, #43464e 0%, #191a1d 100%);
 }
@@ -23,6 +23,7 @@
     font-weight: 300;
     font-size: 2.5em;
     color: white;
+    width: 700px;
 }
 
 .content > .left-column p:nth-child(2){
@@ -30,7 +31,8 @@
     font-weight: 500;
     font-size: 1.8em;
     color: inherit;
-    padding-right: 110px;
+    width: 570px;
+    line-height: 40px;
 }
 
 .butons-container{
@@ -38,6 +40,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 15px;
 }
 
 .signUp-btn{
@@ -58,6 +61,18 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+    cursor: pointer;
+}
+
+.signUp-btn:active{
+    background-color: #6ee297;
+    border: 1px solid #6ee297;
+    font-size: 1.9em;
 }
 
 .learnMore-btn{
@@ -78,6 +93,18 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+    cursor: pointer;
+}
+
+.learnMore-btn:active{
+    background-color: #45bcf5;
+    border: 1px solid #45bcf5;
+    font-size: 1.9em;
 }
 
 

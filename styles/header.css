@@ -69,6 +69,16 @@
     align-items: flex-end;
     gap: 15px;
     padding-bottom: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.spark-container:hover{
+    color: white;
 }
 
 .spark-container h2{
@@ -104,6 +114,7 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    cursor: pointer;
 }
 
 .create-container h2{
@@ -128,46 +139,44 @@
     padding-top: 10px;
     font-size: 2.1em;
     color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
-.login-container{
+.search-container i:hover{
+    color: white;
+}
+
+.btn-header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 110px;
     background-color: #36383f;
-    padding: 12px 10px;
-    border: 1px solid #36383f;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-}
-
-.login-container h2{
-    font-size: 1.3em;
-    font-weight: 900;
-}
-
-.signup-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     height: 60px;
     width: 120px;
-    background-color: #36383f;
     padding: 12px 10px;
     border: 1px solid #36383f;
+    color: white;
+    font-family: var(--ff-primary);
+    font-size: 1.3em;
+    font-weight: 900;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
 }
 
-.signup-container h2{
-    font-size: 1.3em;
-    font-weight: 900;
+.btn-header:active{
+    background-color: #4acc79;
 }

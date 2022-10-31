@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #191a1d;
+}
+
 /*Variables for design*/
 :root{
     /*font family*/
@@ -16,3 +20,5 @@
     --ff-secondary: 'Poppins', Sans-Serif;
     --ff-tertiary: 'Passion One', Sans-Serif;
 }
+
+/*width: 1415px*/
