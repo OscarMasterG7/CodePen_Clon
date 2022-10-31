@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 20px;
+    gap: 30px;
 }
 
 .explore-container h2{
@@ -61,7 +61,7 @@
 }
 
 .spark-container{
-    color: gray;
+    color: #cacaca;
     font-family: var(--ff-primary);
     font-size: 0.8em;
     display: flex;
@@ -77,6 +77,7 @@
 
 .spark-container i{
     font-size: 1.5em;
+    margin-bottom: 2px;
 }
 
 /*right-column*/
@@ -93,20 +94,20 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 48px;
-    width: 130px;
+    height: 60px;
+    width: 150px;
     background-color: #36383f;
     padding: 12px 10px;
     border: 1px solid #36383f;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 .create-container h2{
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 900;
 }
 
@@ -119,13 +120,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 48px;
-    width: 40px;
+    height: 60px;
+    width: 50px;
 }
 
 .search-container i{
     padding-top: 10px;
-    font-size: 1.8em;
+    font-size: 2.1em;
     color: gray;
 }
 
@@ -133,20 +134,20 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 48px;
-    width: 100px;
+    height: 60px;
+    width: 110px;
     background-color: #36383f;
     padding: 12px 10px;
     border: 1px solid #36383f;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 .login-container h2{
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 900;
 }
 
@@ -154,19 +155,19 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 48px;
-    width: 100px;
+    height: 60px;
+    width: 120px;
     background-color: #36383f;
     padding: 12px 10px;
     border: 1px solid #36383f;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 .signup-container h2{
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 900;
 }

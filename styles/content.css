@@ -1,5 +1,5 @@
 .content{
-    height: 560px;
+    height: 570px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -7,15 +7,97 @@
     background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, #43464e 0%, #191a1d 100%);
 }
 
-.img-content{
-    max-width: 500px;
-}
-
+/*Left Column*/
 .content > .left-column{
     width: 100%;
-    padding: 30px;
+    padding: 60px 70px 60px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
     color: #cacaca;
-    font-family: var(--ff-primary);
-    font-weight: 100;
-    font-size: 2.2em;
 }
+
+.content > .left-column p:nth-child(1){
+    font-family: var(--ff-primary);
+    font-weight: 300;
+    font-size: 2.5em;
+    color: white;
+}
+
+.content > .left-column p:nth-child(2){
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 1.8em;
+    color: inherit;
+    padding-right: 110px;
+}
+
+.butons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.signUp-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+    width: 300px;
+    background-color: #4bce79;
+    border: 1px solid #4bce79;
+    color: black;
+    font-family: var(--ff-primary);
+    font-size: 2em;
+    font-weight: 600;
+    padding: 12px 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.learnMore-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+    width: 200px;
+    background-color: #111;
+    border: 1px solid #111;
+    color: white;
+    font-family: var(--ff-primary);
+    font-size: 2em;
+    font-weight: 600;
+    padding: 12px 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+/*Right Column*/
+.content > .right-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+}
+
+.content > .right-column h2{
+    color: white;
+    font-family: var(--ff-secondary);
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.img-content{
+    max-width: 600px;
+}
+
