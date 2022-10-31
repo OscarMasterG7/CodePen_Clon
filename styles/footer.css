@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid gray;
+    background-color: #36383f;
+    color: white;
+    font-family: var(--ff-secondary);
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 40vw;
+    height: 60px;
+}
+
+.footer-info strong{
+    font-family: var(--ff-tertiary);
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
